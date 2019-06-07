@@ -1,0 +1,33 @@
+name: 'YG Iconic'
+description: 'YG Iconic is a Drupal 8 theme perfect for technology related websites'
+# core: 8.x
+type: theme
+base theme: classy
+screenshot: screenshot.png
+
+
+regions:
+  navigation: 'Navigation'
+  primary_menu: 'primary_menu'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  title: 'Title'
+  slider: 'Slider'
+  about: 'About'
+  banner: 'Banner'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'  
+  footer_about: 'Footer about '
+  footer: 'Footer Menu'
+  copyright: 'Copyright'
+  
+
+libraries:
+  - yg_iconic/global-styling
+
+# Information added by Drupal.org packaging script on 2018-10-18
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'yg_iconic'
+datestamp: 1539878110
